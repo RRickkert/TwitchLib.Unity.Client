@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchLib.Unity.Client", "TwitchLib.Unity.Client\TwitchLib.Unity.Client.csproj", "{C99F494D-726B-445C-B7AC-6EDC0A5A7505}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitchLib.Client", "..\TwitchLib.Client\TwitchLib.Client\TwitchLib.Client.csproj", "{4C2CDCA1-AA46-494B-B258-5C1F2499D4FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitchLib.Client.Enums", "..\TwitchLib.Client\TwitchLib.Client.Enums\TwitchLib.Client.Enums.csproj", "{D719DF61-079E-4C97-A1F1-0187BFDF7B25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitchLib.Client.Models", "..\TwitchLib.Client\TwitchLib.Client.Models\TwitchLib.Client.Models.csproj", "{91A6A19A-814B-4CFD-B2F8-A5B89E0792BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitchLib.Communication", "..\TwitchLib.Client\TwitchLib.Communication\src\TwitchLib.Communication\TwitchLib.Communication.csproj", "{9F6EF9F6-CCD7-4720-8029-93C48FEF3C2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitchLib.Unity.Shared", "TwitchLib.Unity.Shared\TwitchLib.Unity.Shared\TwitchLib.Unity.Shared.csproj", "{F1930AB6-2AB5-4E68-A5A7-7537DAFEAFDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C99F494D-726B-445C-B7AC-6EDC0A5A7505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99F494D-726B-445C-B7AC-6EDC0A5A7505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99F494D-726B-445C-B7AC-6EDC0A5A7505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99F494D-726B-445C-B7AC-6EDC0A5A7505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2CDCA1-AA46-494B-B258-5C1F2499D4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2CDCA1-AA46-494B-B258-5C1F2499D4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2CDCA1-AA46-494B-B258-5C1F2499D4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2CDCA1-AA46-494B-B258-5C1F2499D4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D719DF61-079E-4C97-A1F1-0187BFDF7B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D719DF61-079E-4C97-A1F1-0187BFDF7B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D719DF61-079E-4C97-A1F1-0187BFDF7B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D719DF61-079E-4C97-A1F1-0187BFDF7B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A6A19A-814B-4CFD-B2F8-A5B89E0792BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A6A19A-814B-4CFD-B2F8-A5B89E0792BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A6A19A-814B-4CFD-B2F8-A5B89E0792BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A6A19A-814B-4CFD-B2F8-A5B89E0792BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F6EF9F6-CCD7-4720-8029-93C48FEF3C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6EF9F6-CCD7-4720-8029-93C48FEF3C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6EF9F6-CCD7-4720-8029-93C48FEF3C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6EF9F6-CCD7-4720-8029-93C48FEF3C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1930AB6-2AB5-4E68-A5A7-7537DAFEAFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1930AB6-2AB5-4E68-A5A7-7537DAFEAFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1930AB6-2AB5-4E68-A5A7-7537DAFEAFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1930AB6-2AB5-4E68-A5A7-7537DAFEAFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCD17A96-06AD-44EA-88F4-9CC1F0887914}
+	EndGlobalSection
+EndGlobal
