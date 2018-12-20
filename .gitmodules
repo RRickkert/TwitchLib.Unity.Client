@@ -1,3 +1,6 @@
 [submodule "TwitchLib.Unity.Shared"]
 	path = TwitchLib.Unity.Shared
 	url = https://github.com/RRickkert/TwitchLib.Unity.Shared.git
+[submodule "TwitchLib.Client"]
+	path = TwitchLib.Client
+	url = https://github.com/RRickkert/TwitchLib.Client
